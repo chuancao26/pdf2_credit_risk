@@ -10,8 +10,7 @@ Este script fusiona en uno solo lo que antes eran dos pasos separados:
   2) Construcción, entrenamiento y auditoría XAI (SHAP) del FT-Transformer.
 
 Ya no es necesario guardar 'data_artefacts.pkl' en Colab y bajarlo a la PC:
-todo corre en el mismo proceso. Aun así, se guarda un .pkl de respaldo por
-si quieres reutilizar los artefactos sin volver a descargar el dataset.
+todo corre en el mismo proceso.
 """
 
 import os
