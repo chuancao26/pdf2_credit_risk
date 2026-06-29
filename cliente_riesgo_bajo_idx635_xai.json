@@ -1,0 +1,105 @@
+{
+    "perfil_riesgo": "Bajo",
+    "indice_cliente_test": 635,
+    "probabilidad_default": 0.2439,
+    "threshold_clasificacion": 0.5900000000000002,
+    "clase_predicha": 0,
+    "clase_real": 0.0,
+    "perfil_cliente_real": {
+        "LIMIT_BAL": 100000.0,
+        "AGE": 35.0,
+        "BILL_AMT1": 3835.0,
+        "BILL_AMT2": 1891.0,
+        "BILL_AMT3": 1799.0,
+        "BILL_AMT4": 1728.0,
+        "BILL_AMT5": 6000.0,
+        "BILL_AMT6": 0.0,
+        "PAY_AMT1": 1891.0,
+        "PAY_AMT2": 1799.0,
+        "PAY_AMT3": 1728.0,
+        "PAY_AMT4": 6000.0,
+        "PAY_AMT5": 0.0,
+        "PAY_AMT6": 330.0,
+        "SEX": "Femenino",
+        "EDUCATION": "Universidad",
+        "MARRIAGE": "Casado",
+        "PAY_0": -2,
+        "PAY_2": -2,
+        "PAY_3": -2,
+        "PAY_4": -2,
+        "PAY_5": -2,
+        "PAY_6": -2
+    },
+    "inputs_modelo_estandarizados": {
+        "LIMIT_BAL": -0.5209,
+        "AGE": -0.0509,
+        "BILL_AMT1": -0.65,
+        "BILL_AMT2": -0.6717,
+        "BILL_AMT3": -0.6566,
+        "BILL_AMT4": -0.6508,
+        "BILL_AMT5": -0.5674,
+        "BILL_AMT6": -0.6567,
+        "PAY_AMT1": -0.2217,
+        "PAY_AMT2": -0.1701,
+        "PAY_AMT3": -0.1921,
+        "PAY_AMT4": 0.0675,
+        "PAY_AMT5": -0.3227,
+        "PAY_AMT6": -0.2732,
+        "SEX": 1.0,
+        "EDUCATION": 1.0,
+        "MARRIAGE": 0.0,
+        "PAY_0": 1.0,
+        "PAY_2": 1.0,
+        "PAY_3": 1.0,
+        "PAY_4": 1.0,
+        "PAY_5": 1.0,
+        "PAY_6": 1.0
+    },
+    "shap_local": {
+        "PAY_0": -0.0536,
+        "PAY_2": -0.0391,
+        "PAY_AMT1": 0.0276,
+        "PAY_AMT6": 0.021,
+        "BILL_AMT3": -0.0191,
+        "PAY_AMT4": -0.0141,
+        "BILL_AMT1": 0.0136,
+        "PAY_3": -0.0101,
+        "PAY_AMT3": 0.0083,
+        "PAY_6": 0.0057,
+        "LIMIT_BAL": 0.0,
+        "AGE": 0.0,
+        "BILL_AMT2": 0.0,
+        "BILL_AMT4": 0.0,
+        "BILL_AMT5": 0.0,
+        "BILL_AMT6": 0.0,
+        "PAY_AMT2": 0.0,
+        "PAY_AMT5": 0.0,
+        "SEX": 0.0,
+        "EDUCATION": 0.0,
+        "MARRIAGE": 0.0,
+        "PAY_4": 0.0,
+        "PAY_5": 0.0
+    },
+    "top_5_factores_impacto": [
+        {
+            "feature": "PAY_0",
+            "shap_value": -0.0536
+        },
+        {
+            "feature": "PAY_2",
+            "shap_value": -0.0391
+        },
+        {
+            "feature": "PAY_AMT1",
+            "shap_value": 0.0276
+        },
+        {
+            "feature": "PAY_AMT6",
+            "shap_value": 0.021
+        },
+        {
+            "feature": "BILL_AMT3",
+            "shap_value": -0.0191
+        }
+    ]
+}
