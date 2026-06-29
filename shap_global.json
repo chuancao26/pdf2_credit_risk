@@ -24,6 +24,7 @@
         "PAY_5",
         "PAY_6"
     ],
+    "shap_expected_value": 0.3038,
     "n_muestras_evaluadas": 4492,
     "threshold_clasificacion": 0.5900000000000002,
     "metricas_modelo_test": {
@@ -54,5 +55,30 @@
         "BILL_AMT6": 0.0012,
         "PAY_AMT5": 0.0012,
         "BILL_AMT4": 0.0009
+    },
+    "importancia_global_promedio_con_signo": {
+        "LIMIT_BAL": 0.0262,
+        "PAY_3": 0.0118,
+        "BILL_AMT1": 0.0091,
+        "PAY_2": 0.0081,
+        "SEX": 0.0075,
+        "PAY_4": 0.007,
+        "PAY_AMT1": 0.0067,
+        "PAY_6": 0.0066,
+        "PAY_AMT4": 0.0052,
+        "PAY_AMT6": 0.0052,
+        "BILL_AMT3": 0.0044,
+        "PAY_5": 0.0041,
+        "BILL_AMT2": 0.0038,
+        "PAY_0": 0.0036,
+        "PAY_AMT3": 0.0034,
+        "PAY_AMT2": 0.0032,
+        "AGE": 0.0024,
+        "MARRIAGE": 0.0024,
+        "BILL_AMT6": 0.0008,
+        "BILL_AMT4": -0.0002,
+        "PAY_AMT5": -0.0005,
+        "BILL_AMT5": -0.0008,
+        "EDUCATION": -0.0031
     }
 }
